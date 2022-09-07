@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Kanit", sans-serif;
+    min-height: 600px;
+    background-color: #3b2862;
+  }
+  
+  .container {
+    margin: 0 auto;
+    background-color: rgba(44, 21, 91, 0.33);
+    text-align: center;
+    margin-top: 4em;
+    width: 30%;
+    border-radius: 8px;
+    padding-bottom: 1.5em;
+    padding: 0 3em;
+  }
+  
+  .page-title {
+    padding-top: 0.7em;
+    color: #ffffff;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    padding-bottom: 0.7em;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height: 800px;
+    }
+  }
+  
+  .caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+  }
+  
+  input[type="number"] {
+    width: 2em;
+    height: 2em;
+    padding: 6px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #412380;
+    color: white;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-size: 18px;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  button {
+    padding: 0.5em 1.5em;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    background: #412380;
+    border: none;
+  }
+
+  button:active {
+    background-color: #391f71;
+  }
+  
+  .resultado {
+    color: #ffffff;
+    text-align: center;
+    margin: 0 16px;
+    padding: 16px 0;
+    display: block;
+    font-size: 18px;
+  }
+  
